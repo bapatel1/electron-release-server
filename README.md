@@ -56,6 +56,8 @@ Doing so is simple, rebase your repo using the commands below.
 git remote add upstream https://github.com/ArekSredzki/electron-release-server.git
 git fetch upstream
 git rebase upstream/master
+git pull
+git push -u origin master 
 ```
 
 ## Some issues which I face during deployment
